@@ -1,4 +1,4 @@
-These will get converted into unit cfg files eventually, I'm just writing ideas down here.
+These will get converted into unit cfg files eventually, I'm just writing ideas down here.  Health, XP, Attack values will almost certainly get tweaked after some testing.
 
 Militia{
 	Level: 0
@@ -6,7 +6,7 @@ Militia{
 	Moves: 5
 	Cost: 8
 	Alignment: Lawful
-	XP: 16
+	XP: 23
 	Attacks{
 		Spear{
 			Type: Pierce
@@ -18,8 +18,7 @@ Militia{
 	Abilities{
 		None (unless I can define a custom camaraderie ability, then maybe that)
 	}
-	Description: "In times of conflict, the young men of any frontier settlement can be drafted as an informal militia to defend their homes, arming themselves with wooden spears and a mix of cloth and leather armors.
-					Though they lack formal military training, frontier life makes them tough and a fire-hardened spear tip can still pierce the heart of a bandit or orc raider."
+	Description: "In times of conflict, the young men of any frontier settlement can be drafted as an informal militia to defend their homes, arming themselves with wooden spears and a mix of cloth and leather armors.  Though they lack formal military training, frontier life makes them tough and a fire-hardened spear tip can still pierce the heart of a bandit or Orc raider."
 }
 Town Watch{
 	Level: 1
@@ -27,7 +26,7 @@ Town Watch{
 	Moves: 5
 	Cost: 14
 	Alignment: Lawful
-	XP: 29
+	XP: 41
 	Attacks{
 		Spear{
 			Type: Pierce
@@ -39,10 +38,7 @@ Town Watch{
 	Abilities{
 		(camaraderie, if I can define it, otherwise just buff the stats a little bit)
 	}
-	Description: "In places on the frontier where the threat of attack is more common, forces for the defense of a settlement will tend to organize themselves beyond patchwork militias to improve their fighting capabilities.
-					Time spent practicing combat techniques with their fellows both helps them hone their strength and agility and teaches them to work in unison.  Combat drills and patrols around the walls or palisades of their
-					settlements increase familiarity with fighting from a defensive position.  And better equipment in the form of metal-tipped spears and tower shields made from wood, hide, and horn increase their combat effectiveness
-					over less well-prepared militia forces."
+	Description: "In places on the frontier where the threat of attack is more common, forces for the defense of a settlement will tend to organize themselves beyond patchwork militias to improve their fighting capabilities.  Time spent practicing combat techniques with their fellows both helps them hone their strength and agility and teaches them to work in unison.  Combat drills and patrols around the walls or palisades of their settlements increase familiarity with fighting from a defensive position.  And better equipment in the form of metal-tipped spears and tower shields made from wood, hide, and horn increase their combat effectiveness over less well-prepared militia forces."
 }
 Town Guard{
 	Level: 2
@@ -68,8 +64,7 @@ Town Guard{
 	Abilities{
 		(camaraderie, same as above)
 	}
-	Description: "The oldest and most experienced members of the town watch are the Town Guard.  Experienced in the defense of their homes and as well-trained in defensive combat as men living on the edge of human civilization can be,
-					they also boast heavier armor and stronger shields than their younger counterparts.  Close bonds between guardsmen ensure that they can trust the skill of the men they stand beside and effectively fight as a single unit."
+	Description: "The oldest and most experienced members of the Town Watch are the Town Guard.  Experienced in the defense of their homes and as well-trained in defensive combat as men living on the edge of Human civilization can be, they also boast heavier armor and stronger shields than their younger counterparts.  Close bonds between guardsmen ensure that they can trust the skill of the men they stand beside and effectively fight as a single unit."
 }
 Guard Captain{
 	Level: 2
@@ -102,9 +97,7 @@ Guard Captain{
 		Inspire
 		(camaraderie, same as above)
 	}
-	Description: "Any guard force will usually choose as its leadership those who are well-liked by all the men they fight with and who show a particular knack for strategy and tactics.  These Guard Captains are
-					afforded the best equipment among their peers, often including the use of a sword-a rare thing on the frontier where skilled weaponsmiths are few and far between.  They eschew the defensive shields of their
-					peers in exchange for a more versatile fighting style which generally includes the use of a bow, and can be counted on to rally a faltering line or lead a charge to rout the enemy."
+	Description: "Any guard force will usually choose as its leadership those who are well-liked by all the men they fight with and who show a particular knack for strategy and tactics.  These Guard Captains are afforded the best equipment among their peers, often including the use of a sword-a rare thing on the frontier where skilled weaponsmiths are few and far between.  They eschew the defensive shields of their peers in exchange for a more versatile fighting style which generally includes the use of a bow, and can be counted on to rally a faltering line or lead a charge to rout the enemy."
 }
 Runner{
 	Level: 0
@@ -112,7 +105,7 @@ Runner{
 	Moves: 7
 	Cost: 11
 	Alignment: Neutral
-	XP: 10
+	XP: 14
 	Attacks{
 		Stone{
 			Type: Impact
@@ -124,10 +117,7 @@ Runner{
 	Abilities{
 		None
 	}
-	Description: "In times of peace, the youth of a frontier settlement can be found running foot races, pelting woodland creatures with small stones, and clambering up trees and rocks, when they are not busy helping their families
-					eke out a living on the edge of human lands.  In times of conflict, the skills learned in these activities make them uniquely suited to strategic roles such as messengers and scouts.  Though they have no experience
-					fighting, they are faster than most adult humans or orcs and have an easier time moving through rough terrain than larger and more heavily armed and armored enemies would.  If they must engage in combat
-					they prefer to do so from a distance, harassing their enemies with thrown stones."
+	Description: "In times of peace, the youth of a frontier settlement can be found running foot races, pelting woodland creatures with small stones, and clambering up trees and rocks, when they are not busy helping their families eke out a living on the edge of Human lands.  In times of conflict, the skills learned in these activities make them uniquely suited to strategic roles such as messengers and scouts.  Though they have no experience fighting, they are faster than most adult Humans or Orcs and have an easier time moving through rough terrain than larger and more heavily armed and armored enemies would.  If they must engage in combat they prefer to do so from a distance, harassing their enemies with thrown stones."
 }
 Messenger{
 	Level: 1
@@ -135,7 +125,7 @@ Messenger{
 	Moves: 7
 	Cost: 18
 	Alignment: Neutral
-	XP: 20
+	XP: 29
 	Attacks{
 		Staff{
 			Type: Impact
@@ -153,9 +143,7 @@ Messenger{
 	Abilities{
 		None
 	}
-	Description: "As they gain experience, Runners are often trusted with relaying important messages back and forth across the field of battle or to distant settlements, even through areas where they may find themselves
-					caught up in the fray.  To better prepare themselves for this they undergo rudimentary military training with a staff and sling, weapons they already have some familiarity with from play fights and
-					other such things youth are fond of.  They are also equipped with some light armor, though not so much that it hinders their movement."
+	Description: "As they gain experience, Runners are often trusted with relaying important messages back and forth across the field of battle or to distant settlements, even through areas where they may find themselvescaught up in the fray.  To better prepare themselves for this they undergo rudimentary military training with a staff and sling, weapons they already have some familiarity with from play fights and other such things youth are fond of.  They are also equipped with some light armor, though not so much that it hinders their movement."
 }
 Scout{
 	Level: 2
@@ -181,6 +169,365 @@ Scout{
 	Abilities{
 		Skirmisher
 	}
-	Description: "Serving as forward scouts, carriers of critical information, and sometimes even skirmishers before the main line, the quickest and most experienced Runners are invaluable to a settlement during times of
-					conflict."
+	Description: "Serving as forward scouts, carriers of critical information, and sometimes even skirmishers before the main line, the quickest and most experienced Runners are invaluable to a settlement during times of conflict.  They are equally adept at engaging in close combat with their staves and harrassing enemies from a range with slings, and their agility and speed allow them to dance circles around less nimble enemies.  The fastest among them, when sprinting, can even keep pace with mounted soldiers."
+}
+Forager{
+	Level: 0
+	HP: 15
+	Moves: 5
+	Cost: 10
+	Alignment: Neutral
+	XP: 17
+	Attacks{
+		Staff{
+			Type: Impact
+			Strikes: 4-2
+			Range: Melee
+			Special: None
+		}
+	}
+	Abilities{
+		Maybe heals +4
+		If custom abilities are a thing, heal +2
+	}
+	Description: "In frontier settlements where men do most of the hunting, woodcutting, and other excessively physically demanding tasks, other activities including crafts, farming, and foraging are left to the women.  It is the task of the Foragers to understand and make use of herbs, roots, nuts, and fruits that grow in the surrounding areas.  In addition to being an important and reliable source of food (as hunts are energy- and time-consuming and not always successful) they are also the closest thing many settlements will have to a doctor.  Although their limited arsenal of tools and lack of formal training are a poor substitute for an experienced physician, there are few who would say they prefer an open wound to one dressed with an herbal poultice."
+}
+Herbalist{
+	Level: 1
+	HP: 25
+	Moves: 5
+	Cost: 16
+	Alignment: Neutral
+	XP: 31
+	Attacks{
+		Staff{
+			Type: Impact
+			Strikes: 4-2
+			Range: Melee
+			Special: None
+		}
+		Fire Satchel{
+			Type: Fire
+			Strikes: 7-1
+			Range: Ranged
+			Special: None
+		}
+	}
+	Abilities{
+		Heals +4
+		Maybe cures
+	}
+	Description: "Herbalists specialize in creating brews, salves, pills, and other varied medicines invaluable for those injured in the course of daily life or on the battlefield.  Though they may not realize it initially, practice making medicines and the study of herbal healing agents usually leads to the discovery of some of the most basic elements of magical practices.  This manifests itself as weaponized herbal concoctions, often in the form of a sack or clay container filled with resins and herbs and infused with faint magical energies: a far cry from the elegant sorceries of court mages but effective nonetheless."
+}
+Shaman{
+	Level: 2
+	HP: 38
+	Cost: 30
+	Alignment: Neutral
+	XP: 71
+	Attacks{
+		Staff{
+			Type: Impact
+			Strikes: 6-2
+			Range: Melee
+			Special: None
+		}
+		Fireball{
+			Type: Fire
+			Strikes: 8-2
+			Range: Ranged
+			Special: Magical
+		}
+	}
+	Abilities{
+		Heals +4, Cures
+	}
+	Description: "Older and more experienced Herbalists serve their villages as healers, oracles, and mages.  Their control over magic, which is otherwise almost nonexistant on the frontier, commands a great deal of respect from their fellow villagers, and sometimes fear from those who are less knowledgeable.  Increased healing prowess allows them to treat even the foulest toxins and a better understanding of offensive magic allows them to cast fireballs instead of relying on infused bombs."
+}
+Sage{
+	Level: 3
+	HP: 50
+	Moves: 5
+	Cost: 50
+	Alignment: Neutral
+	XP: NA
+	Attacks{
+		Staff{
+			Type: Impact
+			Strikes: 7-2
+			Range: Melee
+			Special: None
+		}
+		Fireball{
+			Type: Fire
+			Strikes: 10-2
+			Range: Ranged
+			Special: Magical
+		}
+		Entangle{
+			Type: Impact
+			Strikes: 8-2
+			Range: Ranged
+			Special: Slows
+		}
+	}
+	Abilities{
+		Heals +8, Cures
+	}
+	Description: "Sages are the greatest healers living in the camps and villages that make up the edge of Human lands.  Years of experience have taught them much of what can be learned about the healing arts, and as such their skill at mending wounds and curing diseases and toxins is on par with that of the healers from formal magic academies.  Though they focus mostly on healing magic, their skills in combat are also impressive as their time spent in the wilds has given them something akin to the nature-controlling magic of the Elves."
+}
+Witch{
+	Level: 3
+	HP: 58
+	Moves: 5
+	Cost: 48
+	Alignment: Chaotic
+	XP: NA
+	Attacks{
+		Staff{
+			Type: Impact
+			Strikes: 8-2
+			Range: Melee
+			Special: None
+		}
+		Fireball{
+			Type: Fire
+			Strikes: 12-3
+			Range: Ranged
+			Special: Magical
+		}
+		Hex{
+			Type: Cold
+			Strikes: 8-2
+			Range: Ranged
+			Special: Magical, Poison, Slows
+		}
+	}
+	Abilities{
+		Heals +4, Cures
+	}
+	Description: "Some Shamans, as they progress down the paths of magical practice, find more value in hexes and blasts of fire than in soothing spells.  Branded as witches and harbingers of evil, they are often exiled from their villages for fear of what harm they might cause if left to their own devices.  In villages where they are permitted, the inhabitants watch them warily and generally only interact when they must out of necessity.  Although they are reviled in most places, none can deny their effectiveness on the battlefield as they leave only charred corpses or helpless wretches, writhing in pain, where their enemies once stood."
+}
+Woodsman{
+	Level: 0
+	HP: 19
+	Moves: 5
+	Cost: 9
+	Alignment: Neutral
+	XP: 26
+	Attacks{
+		Knife{
+			Type: Blade
+			Strikes: 3-1
+			Range: Melee
+			Special: None
+		}
+		Bow{
+			Type: Pierce
+			Strikes: 6-2
+			Range: Ranged
+			Special: None
+		}
+		Abilities{
+			None
+		}
+		Description: "Woodsmen make up the bulk of the population of most settlements scattered around the edges of Human lands.  They are fairly well-versed in eking out a living from hunting game through forests and hills and trading pelts or lumber to caravans passing through the area, and their lifestyle naturally lends itself to proficiency with a bow.  They carry a small dagger for use in skinning animals, though in a pinch they can use it to defend themselves as well."
+	}
+}
+Hunter{
+	Level: 1
+	HP: 33
+	Moves: 5
+	Cost: 15
+	Alignment: Neutral
+	XP: 46
+	Attacks{
+		Knife{
+			Type: Blade
+			Strikes: 5-1
+			Range: Melee
+			Special: None
+		}
+		Bow{
+			Type: Pierce
+			Strikes: 6-3
+			Range: Ranged
+			Special: None
+		}
+	}
+	Abilities{
+		None
+	}
+	Description: "Hunters have trained with a bow long enough that they can be counted on by their villages to take down the larger game that forms the core of food stockpiles for winter and other times when food is lacking.  Adept at moving through the woods and hills in search or pursuit of animals, they are more at home in the wilderness than most other Humans.  They may be less well-equipped to fight in a battle than the archers in the armies of the crown, but their familiarity with the terrain combined with their constantly practiced archery skills still make them a dangerous foe."
+}
+Skirmisher{
+	Level: 2
+	HP: 48
+	Moves: 6
+	Cost: 25
+	Alignment: Neutral
+	XP: 62
+	Attacks{
+		Axe{
+			Type: Blade
+			Strikes: 7-3
+			Range: Melee
+			Special: None
+		}
+		Spear{
+			Type: Pierce
+			Strikes: 10-2
+			Range: Melee
+			Special: First strike
+		}
+		Shortbow{
+			Type: Pierce
+			Strikes: 6-4
+			Range: Ranged
+			Special: None
+		}
+	}
+	Abilities{
+		Skirmisher
+	}
+	Description: "Occasionally, a Hunter will come to find life on the frontier too quiet or dreary, and decide to try their hand at adventuring or mercenary work.  Without setting aside their skill with the bow, they practice close-quarters combat with a variety of weapons, from swords and axes to clubs and spears.  Setting off from their homes, they usually end up in the employ of nobles or the royal army, or rarely gangs of bandits, as skirmishing units, firing rapid volleys of arrows at advancing enemies, or weaving their way through the front lines of combat, picking off solitary enemies.  Though their shortbows are not as powerful as those of the longbow regiments, they are able to fire them faster and in tighter spaces, which suits them far better for the battles they fight."
+}
+Mercenary{
+	Level: 3
+	HP: 60
+	Moves: 6
+	Cost: 40
+	Alignment: Neutral
+	XP: NA
+	Attacks{
+		Axe{
+			Type: Blade
+			Strikes: 10-3
+			Range: Melee
+			Special: None
+		}
+		Spear{
+			Type: Pierce
+			Strikes: 15-2
+			Range: Melee
+			Special: None
+		}
+		Shortbow{
+			Type: Pierce
+			Strikes: 8-4
+			Range: Ranged
+			Special: None
+		}
+	}
+	Abilities{
+		Skirmisher
+	}
+	Description: "A very well-balanced fighter, Mercenaries can be found employed as auxiliary soldiers throughout Human-controlled lands.  Their versatile fighting style ensures that they can outmaneuver and defeat most foes, though they likely cannot match a master of any of any one particular fighting skill.  They may still consider the village from which they came to be their home, perhaps even supporting a family there with their pay, but they will almost certainly spend a majority of their time away, as necessitated by their profession."
+}
+Ranger{
+	Level: 2
+	HP: 50
+	Moves: 5
+	Cost: 27
+	Alignment: Neutral
+	XP: 71
+	Attacks{
+		Short sword{
+			Type: Blade
+			Strikes: 5-3
+			Range: Melee
+			Special: None
+		}
+		Bow{
+			Type: Pierce
+			Strikes: 6-4
+			Range: Ranged
+			Special: None
+		}
+	}
+	Abilities{
+		Ambush
+	}
+	Description: "Rangers are Hunters who have taken it upon themselves to watch over and care for the land that supports them.  As they spend more and more time in the wilderness they become much more skilled at moving through rough terrain that would otherwise slow Humans down.  They also come to know the forests quite well, and can mask their footfalls and hide in trees or bushes so that all but those with the keenest senses do not know they are there.  Bandits or others who they feel pose a threat to the lands they guard may suddenly find their packs riddled with arrows and nothing but the creatures of the forest in sight."
+}
+Warden{
+	Level: 3
+	HP: 60
+	Moves: 6
+	Cost: 45
+	Alignment: Neutral
+	XP: NA
+	Attacks{
+		Short sword{
+			Type: Blade
+			Strikes: 8-3
+			Range: Melee
+			Special: None
+		}
+		Bow{
+			Type: Pierce
+			Strikes: 9-4
+			Range: Ranged
+			Special: None
+		}
+		Entangle{
+			Type: Impact
+			Strikes: 5-2
+			Range: Ranged
+			Special: Slows
+		}
+	}
+	Description: "Having spent a lifetime in the wild places of the continent, Wardens are fully at home in almost any type of terrain.  Masters at living off the land, they do occasionally visit nearby villages to restock on more civilized supplies such as metal tools, or if they feel the need for the company that is largely absent in the wilds.  Their close relationship with the natural world has also given them a rudimentary control over nature magic, similar to that of the Elves, and they are capable of calling the forests to hind their enemies."
+}
+Marksman{
+	Level: 2
+	HP: 46
+	Moves: 5
+	Cost: 30
+	Alignment: Neutral
+	XP: 74
+	Attacks{
+		Dagger{
+			Type: Blade
+			Strikes: 6-2
+			Range: Melee
+			Special: None
+		}
+		Longbow{
+			Type: Pierce
+			Strikes: 8-3
+			Range: Ranged
+			Special: Marksman
+		}
+	}
+	Description: "Marksmen have dedicated considerable time to their skill with a bow, something which proves invaluable for hunting game of any kind.  Rarely do they miss a target, even one running through trees and brush, and their longbows are capable of delivering considerable force to an arrow.  This combination translates quite well to the battlefield, allowing them to match the prowess of the archers of most races, except for the Elves."
+}
+Hawkeye{
+	Level: 3
+	HP: 55
+	Moves: 5
+	Cost: 48
+	Alignment: Neutral
+	XP: NA
+	Attacks{
+		Dagger{
+			Type: Blade
+			Strikes: 9-2
+			Range: Melee
+			Special: None
+		}
+		Longbow{
+			Type: Pierce
+			Strikes: 12-3
+			Range: Ranged
+			Special: Marksman
+		}
+		Vital Shot{
+			Type: Pierce
+			Strikes: 25-1
+			Range: Ranged
+			Special: (custom special Deadeye for 80% chance to hit on offense, if that's not possible just Marksman and bump damage to 33)
+		}
+	}
+	Description: "After many long years of training and experience, those given the title of Hawkeye have come as close to the Elvish mastery of archery as is possible for Humans.  They can easily and reliably put arrows on a target several hundred feet away, even while they or their target are moving.  If given enough time to concentrate before a shot is fired, a Hawkeye could land an arrow dead center in an animal's heart or in the gap between two plates of armor on a charging horseman.  Though such an attack is time consuming, it is enough to fatally wound, if not kill outright, many opponents."
 }
