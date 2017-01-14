@@ -1,0 +1,8 @@
+Version 0.0.1 (This version comprises the first several commits I made to my Git repository, which were mostly done before the creation of this changelog.)
+	Created _main.cfg
+	Wrote down general info on all Frontier units in a text file
+	Created unit .cfg files for the Militia unit tree, the Woodsman, Hunter, Forager, and Herbalist
+	Created a .cfg file and map for the first scenario.
+	Added the first scenario to _main.cfg
+	Wrote down a high-level overview of the plot of the campaign in a text file
+	Set placeholder images for the Militia unit tree, the Woodsman, Hunter, Forager, and Herbalist (shamelessly using mainline faction unit sprites)
