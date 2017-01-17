@@ -6,3 +6,26 @@ Version 0.0.1 (This version comprises the first several commits I made to my Git
 	Added the first scenario to _main.cfg
 	Wrote down a high-level overview of the plot of the campaign in a text file
 	Set placeholder images for the Militia unit tree, the Woodsman, Hunter, Forager, and Herbalist (shamelessly using mainline faction unit sprites)
+
+Version 0.0.2
+	Added the team color macro to all existing units so they are no longer always colored magenta
+	Defined custom abilities in _main.cfg:
+		inspires: all adjacent units on the same team gain +10% damage
+		camaraderie: units with this ability gain +10% damage and +10% resistance to blade, impact, pierce damage when next to another unit with this ability
+	Defined custom weapon special deadeye in _main.cfg: weapons with this special always have at least an 80% chance to hit
+	Added camaraderie ability to Town Watch, Town Guard, Guard Captain units
+	Added inspires ability to Guard Captain
+	Named scenario 1: 01_Frontier_Peace_Disturbed
+	Completed events and dialog for 01_Frontier_Peace_Disturbed
+		Reylyn now enters the map at the beginning of turn 7 with the band of hunters
+		Moving Reylyn to the keep now allows recruiting of Woodsmen
+		At the beginning of turn 7, turn limit is added and set to 20 (game ends on start of turn 21) if difficulty is on Hard, 24 (game ends on start of turn 25) otherwise
+		At the beginning of turn 16, the Orc leader gets immediate bonus grunts, and on higher difficulties extra gold as well
+	Completed the remaining unit trees (still using mainline faction sprites as placeholders)
+		Hunter-->Marksman-->Hawkeye
+		Hunter-->Ranger-->Warden
+		Hunter-->Skirmisher-->Mercenary
+		Herbalist-->Shaman-->Sage
+		Herbalist-->Shaman-->Witch
+		Runner-->Messenger-->Scout
+	Added a new race, the Frontier Humans, and grouped all units under it
