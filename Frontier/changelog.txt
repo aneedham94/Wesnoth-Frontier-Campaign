@@ -31,5 +31,5 @@ Version 0.0.2
 	Added a new race, the Frontier Humans, and grouped all units under it
 
 Version 0.1
-	First 2 scenarios should now be feature complete.  Balancing still needs to be done and small map changes may occur, but the general layout of the map and the way the scenario plays out shouldn't change.
+	First 3 scenarios should now be feature complete.  Balancing still needs to be done and small map changes may occur, but the general layout of the map and the way the scenario plays out shouldn't change.
 	Still messing around with how my Inspires and Camaraderie abilities interact, not quite sure if they're working how I want.
